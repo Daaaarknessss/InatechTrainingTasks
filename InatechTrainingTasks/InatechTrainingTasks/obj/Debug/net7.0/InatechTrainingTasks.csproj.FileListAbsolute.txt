@@ -1,0 +1,15 @@
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.csproj.AssemblyReference.cache
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.AssemblyInfoInputs.cache
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.AssemblyInfo.cs
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.csproj.CoreCompileInputs.cache
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\bin\Debug\net7.0\InatechTrainingTasks.exe
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\bin\Debug\net7.0\InatechTrainingTasks.deps.json
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\bin\Debug\net7.0\InatechTrainingTasks.runtimeconfig.json
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\bin\Debug\net7.0\InatechTrainingTasks.dll
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\bin\Debug\net7.0\InatechTrainingTasks.pdb
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.dll
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\refint\InatechTrainingTasks.dll
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.pdb
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\InatechTrainingTasks.genruntimeconfig.cache
+D:\Inatech Training\InatechTrainingTasks\InatechTrainingTasks\obj\Debug\net7.0\ref\InatechTrainingTasks.dll

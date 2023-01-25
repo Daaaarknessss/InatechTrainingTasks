@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InatechTrainingTasks.Day3
+{
+    class Task3b
+    {
+        public void CalculateTax()
+        {
+            double vat = 0.2;
+            double price = 100;
+            double tax = price * vat;
+            Console.WriteLine("VAT: " + tax);
+        }
+    }
+
+    class DerivedClass : Task3b
+    {
+        public new void CalculateTax()
+        {
+            double gst = 0.12;
+            double price = 100;
+            double tax = price * gst;
+            Console.WriteLine("GST: " + tax);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Task3b baseClass = new Task3b();
+            baseClass.CalculateTax();
+
+            DerivedClass derivedClass = new DerivedClass();
+            derivedClass.CalculateTax();
+
+            Console.ReadLine();
+        }
+    }
+}
