@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .Format {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Shaheer Sheik</td>
+                <td>Kuch Rang Pyaar Ke Aise Bhi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rajat</td>
+                <td>Jodha Akbar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tejaswi</td>
+                <td>Rishta Likenge Ham Naya</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jenifer</td>
+                <td>Beyhadh</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Striped Table</h1>
+        <table class="table table-striped">
+            <tr>
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Erica</td>
+                <td>Kasauti Zindagi ki</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Sharadh</td>
+                <td>Kasam</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Mouni</td>
+                <td>Naagin1</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Surbhi Jyothi</td>
+                <td>Naagin3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Bordered Table</h1>
+        <table class="table table-bordered">
+            <tr>
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mohsin Khan</td>
+                <td>Yeh Rishta Kya Kehlata Hain</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Paridhhi Sharma</td>
+                <td>Patiala Babes</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tejaswi</td>
+                <td>Naagin6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jenifer</td>
+                <td>Bepannah</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Hovered Table</h1>
+        <table class="table table-hover">
+            <tr>
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Erica</td>
+                <td>Kasauti Zindagi ki</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Sharadh</td>
+                <td>Kasam</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Mouni</td>
+                <td>Naagin1</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Surbhi Jyothi</td>
+                <td>Naagin3</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Condensed Table</h1>
+        <table class="table table-condensed">
+            <tr>
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Shaheer Sheik</td>
+                <td>Kuch Rang Pyaar Ke Aise Bhi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rajat</td>
+                <td>Jodha Akbar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tejaswi</td>
+                <td>Rishta Likenge Ham Naya</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jenifer</td>
+                <td>Beyhadh</td>
+            </tr>
+        </table>
+        <hr />
+        <h1>Table</h1>
+        <table class="table">
+            <tr class="success">
+                <td>Sno</td>
+                <td>Actors</td>
+                <td>Serial Name</td>
+            </tr>
+            <tr class="danger">
+                <td>1</td>
+                <td>Shaheer Sheik</td>
+                <td>Kuch Rang Pyaar Ke Aise Bhi</td>
+            </tr>
+            <tr class="active">
+                <td>2</td>
+                <td>Rajat</td>
+                <td>Jodha Akbar</td>
+            </tr>
+            <tr class="info">
+                <td>3</td>
+                <td>Tejaswi</td>
+                <td>Rishta Likenge Ham Naya</td>
+            </tr>
+            <tr class="mark">
+                <td>4</td>
+                <td>Jenifer</td>
+                <td>Beyhadh</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function () {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
