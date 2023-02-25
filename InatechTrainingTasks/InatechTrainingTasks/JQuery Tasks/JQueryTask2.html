@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <style>
+        .Format{
+            background-color:gold;
+
+
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+        </tr>
+        <tr>
+            <td>Autobiography of a yogi</td>
+            <td>Paramahamsa Yogananda</td>
+        </tr>
+        <tr>
+        <td>Metamorphosis</td>
+        <td>Franz Kafka</td>
+        </tr>
+        <tr>
+            <td>12 Rules for Life</td>
+            <td>Jordan Peterson</td>
+        </tr>
+    </table>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function ()
+            {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
