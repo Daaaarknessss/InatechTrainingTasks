@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background-color: ghostwhite;
+}
+
+textarea {
+    display: block;
+    width: 55%;
+    overflow: hidden;
+    resize: both;
+    height: 35px;
+    line-height: 20px;
+}
+
+form {
+    margin-left: 140px;
+}
+
+a {
+    text-decoration: blink;
+}
+
+.form {
+    background-color: aliceblue;
+    height: stretch;
+    width: 40%;
+    margin-left: 500px;
+    padding: 40px;
+    margin-top: 30px;
+    border: 2px solid black;
+    font-family: Georgia;
+}
+
+.head {
+    text-align: center;
+}
